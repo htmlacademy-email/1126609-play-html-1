@@ -43,8 +43,6 @@
       }
 
       .header__cell {
-        padding-left: 16px !important;
-        padding-right: 16px !important;
         padding-top: 40px !important;
         padding-bottom: 16px !important;
       }
@@ -57,18 +55,39 @@
         width: 140px !important;
       }
 
+      .nav {
+        width: 288px!important;
+      }
+
+      .nav__wrapper {
+        padding-left: 0!important;
+        padding-right: 0!important;
+      }
+
       .nav__cell {
         padding-bottom: 16px !important;
+      }
+
+      .nav__item {
+        width: auto!important;
+      }
+
+      .nav__item-1 {
+        padding-right: 20px!important;
+      }
+
+      .nav__item-3 {
+        float: right!important;
+      }
+
+      .nav__item-4 {
+        float: none!important;
       }
 
       .nav__link {
         font-family: 'Roboto', 'Trebuchet MS', 'Nimbus Sans L', 'Helvetica', sans-serif !important;
         font-size: 18px !important;
         line-height: 21px !important;
-      }
-
-      .nav__separator {
-        width: 23px!important;
       }
 
       .webinar-hosts__wrapper {
@@ -104,7 +123,7 @@
         <!--Шапка-->
         <table class="mobile-width header" width="600px" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;">
           <tr>
-            <td class="header__cell" style="Margin:0;padding-top:56px;padding-bottom:26px;padding-left:32px;padding-right:32px;">
+            <td class="header__cell" style="Margin:0;padding-top:56px;padding-bottom:26px;padding-left:16px;padding-right:16px;">
 
               <!--Логотип-->
               <table class="logo" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
@@ -120,45 +139,42 @@
 
               <!--Меню-->
               <!--Обертка меню-->
-              <table class="nav" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+              <table class="nav" width="568px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:568px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                 <tr>
 
                   <!--Пункты меню-->
-                  <td align="center" style="Margin:0;padding:0;">
-                    <table class="nav__item nav__item--courses" cellpadding="0" cellspacing="0" border="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                  <td class="nav__wrapper" align="center" style="Margin:0;padding-left:16px;padding-right:16px;">
+                    <table class="nav__item nav__item-1" width="134px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/courses" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#ff4b33;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
                             <b style="text-transform:uppercase">Курсы</b>
                           </a>
                         </td>
-                        <td width="66px" style="width:66px;" class="nav__separator"></td>
                       </tr>
                     </table>
 
-                    <table class="nav__item nav__item--webinars" cellpadding="0" cellspacing="0" border="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                    <table class="nav__item nav__item-2" width="134px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/webinars" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#0b379b;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
                             <b style="text-transform:uppercase">Вебинары</b>
                           </a>
                         </td>
-                        <td width="66px" style="width:66px;" class="nav__separator"></td>
                       </tr>
                     </table>
 
-                    <table class="nav__item nav__item--about-school" cellpadding="0" cellspacing="0" border="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                    <table class="nav__item nav__item-3" width="134px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/about-school" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#02bad3;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
                             <b style="text-transform:uppercase">О&nbsp;школе</b>
                           </a>
                         </td>
-                        <td width="66px" style="width:66px;" class="nav__separator hidden"></td>
                       </tr>
                     </table>
 
-                    <table class="nav__item nav__item--sale" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                    <table class="nav__item nav__item-4" width="134px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/sale" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#ffc81a;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
