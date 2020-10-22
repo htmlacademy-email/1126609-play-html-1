@@ -30,50 +30,80 @@
   <style type="text/css">
     @media only screen and (max-width: 599px) {
       .mobile-width {
-        width: 320px!important;
+        width: 320px !important;
       }
 
       .image {
         max-width: 100%;
-        height: auto!important;
+        height: auto !important;
+      }
+
+      .hidden {
+        display: none!important;
       }
 
       .header__cell {
-        padding-left: 16px!important;
-        padding-right: 16px!important;
-        padding-top: 40px!important;
-        padding-bottom: 16px!important;
+        padding-top: 40px !important;
+        padding-bottom: 16px !important;
       }
 
       .logo__cell {
-        padding-bottom: 32px!important;
+        padding-bottom: 32px !important;
       }
 
       .logo__image {
-        width: 140px!important;
+        width: 140px !important;
+      }
+
+      .nav {
+        width: 288px!important;
+      }
+
+      .nav__wrapper {
+        padding-left: 0!important;
+        padding-right: 0!important;
       }
 
       .nav__cell {
-        padding-bottom: 16px!important;
+        padding-bottom: 16px !important;
       }
 
-      .nav__item--courses {
-        width: 86px!important;
-      }
-
-      .nav__item--webinars {
-        width: 121px!important;
-      }
-
-      .nav__item--about-school,
-      .nav__item--sale {
+      .nav__item {
         width: auto!important;
       }
 
+      .nav__item-1,
+      .nav__item-2 {
+        padding-right: 20px!important;
+      }
+
+      .nav__item-3 {
+        float: right!important;
+      }
+
+      .nav__item-4 {
+        float: none!important;
+      }
+
       .nav__link {
-        font-family:'Roboto','Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif!important;
-        font-size: 18px!important;
-        line-height: 21px!important;
+        font-family: 'Roboto', 'Trebuchet MS', 'Nimbus Sans L', 'Helvetica', sans-serif !important;
+        font-size: 18px !important;
+        line-height: 21px !important;
+      }
+
+      .webinar-hosts__wrapper {
+        padding-left: 0!important;
+        padding-right: 0!important;
+      }
+
+      .webinar-hosts__item {
+        width: 288px!important;
+        float: none!important;
+      }
+
+      .webinar-hosts__item-wrapper {
+        padding-right: 0!important;
+        padding-bottom: 32px!important;
       }
     }
   </style>
@@ -92,9 +122,9 @@
       <td style="Margin:0;padding:0;">
 
         <!--Шапка-->
-        <table class="mobile-width header" width="600px" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;">
+        <table class="mobile-width header" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;">
           <tr>
-            <td class="header__cell" style="Margin:0;padding-top:56px;padding-bottom:26px;padding-left:32px;padding-right:32px;">
+            <td class="header__cell" style="Margin:0;padding-top:56px;padding-bottom:26px;padding-left:16px;padding-right:16px;">
 
               <!--Логотип-->
               <table class="logo" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
@@ -110,12 +140,12 @@
 
               <!--Меню-->
               <!--Обертка меню-->
-              <table class="nav" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+              <table class="nav" width="568" cellpadding="0" cellspacing="0" border="0" align="center" style="width:568px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                 <tr>
 
                   <!--Пункты меню-->
-                  <td align="center" style="Margin:0;padding:0;">
-                    <table class="nav__item nav__item--courses" width="134px" cellpadding="0" cellspacing="0" border="0" align="left" style="width:134px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                  <td class="nav__wrapper" align="center" style="Margin:0;padding-left:16px;padding-right:16px;">
+                    <table class="nav__item nav__item-1" width="134" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/courses" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#ff4b33;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
@@ -125,7 +155,7 @@
                       </tr>
                     </table>
 
-                    <table class="nav__item nav__item--webinars" width="134px" cellpadding="0" cellspacing="0" border="0" align="left" style="width:134px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                    <table class="nav__item nav__item-2" width="134" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/webinars" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#0b379b;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
@@ -135,7 +165,7 @@
                       </tr>
                     </table>
 
-                    <table class="nav__item nav__item--about-school" width="134px" cellpadding="0" cellspacing="0" border="0" align="left" style="width:134px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                    <table class="nav__item nav__item-3" width="134" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/about-school" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#02bad3;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
@@ -145,7 +175,7 @@
                       </tr>
                     </table>
 
-                    <table class="nav__item nav__item--sale" width="134px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                    <table class="nav__item nav__item-4" width="134" cellpadding="0" cellspacing="0" border="0" align="center" style="width:134px;float:left;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                       <tr>
                         <td class="nav__cell" style="Margin:0;padding:0;">
                           <a class="nav__link" href="https://htmlacademy.ru/sale" target="_blank" style="font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:16px;line-height:19px;text-decoration:none;color:#ffc81a;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
@@ -168,12 +198,12 @@
         <!--Шапка закончилась-->
 
         <!--Приветствие-->
-        <table width="600px" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#0b379b" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0b379b;width:600px;">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#0b379b" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0b379b;width:600px;">
           <tr>
             <td style="Margin:0;padding-top:0;padding-bottom:0;padding-left:32px;padding-right:32px;">
 
               <!--[if mso]>
-              <table width="600px" cellspacing="0" cellpadding="0" border="0">
+              <table width="600" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                   <td style="width:361px" valign="top">
               <![endif]-->
@@ -235,7 +265,7 @@
 
         <!--Анонс-->
         <!--Обертка-->
-        <table width="600px" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
           <tr>
             <td style="Margin:0;padding-top:48px;padding-bottom:48px;padding-left:32px;padding-right:32px;">
 
@@ -286,9 +316,9 @@
 
         <!--Ведущие курса-->
         <!--Обертка ведущих-->
-        <table width="600px" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
+        <table class="mobile-width webinar-hosts" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;">
           <tr>
-            <td style="Margin:0;padding-left:32px;padding-right:32px;padding-bottom:48px;padding-top:0;">
+            <td class="webinar-hosts__wrapper" style="Margin:0;padding-left:32px;padding-right:32px;padding-bottom:48px;padding-top:0;">
 
               <!--Контент-->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
@@ -313,18 +343,24 @@
                           <![endif]-->
 
                           <!--Антон Громов-->
-                          <table width="168" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:168px;float:left;">
+                          <table class="webinar-hosts__item" width="184" cellpadding="0" cellspacing="0" border="0" align="center" style="width:184px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                             <tr>
-                              <td align="center" style="Margin:0;padding-left:0;padding-right:0;padding-bottom:12px;padding-top:0;">
-                                <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/portrait2.jpg" width="88" height="88" alt="Антон Громов" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td align="center">
-                                <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
-                                  <b>Антон Громов</b>
-                                  <span>Фронтенд- разработчик в&nbsp;Cats Development</span>
-                                </p>
+                              <td class="webinar-hosts__item-wrapper" align="center" style="padding-right:16px;">
+                                <table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;float:left;">
+                                  <tr>
+                                    <td align="center" style="Margin:0;padding-left:0;padding-right:0;padding-bottom:12px;padding-top:0;">
+                                      <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/portrait2.jpg" width="88" height="88" alt="Антон Громов" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td align="center">
+                                      <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
+                                        <b>Антон Громов</b><br/>
+                                        <span>Фронтенд- разработчик в&nbsp;Cats Development</span>
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </table>
                               </td>
                             </tr>
                           </table>
@@ -335,10 +371,10 @@
                           <![endif]-->
 
                           <!--Илья Раменский-->
-                          <table cellpadding="0" cellspacing="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
+                          <table class="webinar-hosts__item" width="184" cellpadding="0" cellspacing="0" border="0" align="center" style="width:184px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                             <tr>
-                              <td align="center" style="padding-left:16px;padding-right:16px;">
-                                <table width="168" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:168px;">
+                              <td class="webinar-hosts__item-wrapper" align="center" style="padding-right:16px;">
+                                <table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;">
                                   <tr>
                                     <td align="center" style="Margin:0;padding-left:0;padding-right:0;padding-bottom:12px;padding-top:0;">
                                       <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/portrait3.jpg" width="88" height="88" alt="Илья Раменский" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
@@ -347,8 +383,8 @@
                                   <tr>
                                     <td align="center">
                                       <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
-                                        <b>Илья Раменский</b>
-                                        <span>Team Lead в Lizard Software</span>
+                                        <b>Илья Раменский</b><br/>
+                                        <span>Team Lead в&nbsp;Lizard Software</span>
                                       </p>
                                     </td>
                                   </tr>
@@ -363,7 +399,7 @@
                           <![endif]-->
 
                           <!--Игнатий Чубаров-->
-                          <table width="168" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:168px;float:right;">
+                          <table class="webinar-hosts__item" width="168" cellpadding="0" cellspacing="0" border="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:168px;float:right;">
                             <tr>
                               <td align="center" style="Margin:0;padding-left:0;padding-right:0;padding-bottom:12px;padding-top:0;">
                                 <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/portrait4.jpg" width="88" height="88" alt="Игнатий Чубаров" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
@@ -372,7 +408,7 @@
                             <tr>
                               <td align="center">
                                 <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
-                                  <b>Игнатий Чубаров</b>
+                                  <b>Игнатий Чубаров</b><br/>
                                   <span>Преподаватель IT в&nbsp;РУИТ</span>
                                 </p>
                               </td>
@@ -592,7 +628,7 @@
         <!--Другие мероприятия закончились-->
 
         <!--Картинка Превед-->
-        <table width="600px" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
           <tr>
             <td align="center" style="Margin:0;padding-bottom:8px;padding-top:0;padding-left:0;padding-right:0;">
               <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/image_2.jpg" width="273" height="290" alt="Двое людей приветствуют друг друга с помощью видеосвязи." style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
