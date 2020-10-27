@@ -79,7 +79,7 @@
       }
 
       .nav__item-3 {
-        float: right!important;
+        /*float: right!important;*/
       }
 
       .nav__item-4 {
@@ -90,6 +90,30 @@
         font-family: 'Roboto', 'Trebuchet MS', 'Nimbus Sans L', 'Helvetica', sans-serif !important;
         font-size: 18px !important;
         line-height: 21px !important;
+      }
+
+      .welcome__wrapper {
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+        padding-bottom: 24px!important;
+      }
+
+      .welcome__text {
+        width: 288px!important;
+      }
+
+      .welcome__text-wrapper {
+        padding-top: 24px!important;
+      }
+
+      .welcome__image {
+        width: 288px!important;
+      }
+
+      .announcement__wrapper {
+        padding-top: 40px!important;
+        padding-left: 16px!important;
+        padding-right: 16px!important;
       }
 
       .webinar-hosts__wrapper {
@@ -105,6 +129,18 @@
       .webinar-hosts__item-wrapper {
         padding-right: 0!important;
         padding-bottom: 32px!important;
+      }
+
+      .events__wrapper {
+        padding-bottom: 9px!important;
+      }
+
+      .events__title-wrapper {
+        padding-bottom: 16px!important;
+      }
+
+      .hello-image__wrapper {
+        padding-bottom: 16px!important;
       }
 
       .footer__wrapper {
@@ -226,9 +262,9 @@
         <!--Шапка закончилась-->
 
         <!--Приветствие-->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#0b379b" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0b379b;width:600px;">
+        <table class="mobile-width welcome" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#0b379b" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0b379b;">
           <tr>
-            <td style="Margin:0;padding-top:0;padding-bottom:0;padding-left:32px;padding-right:32px;">
+            <td class="welcome__wrapper" style="Margin:0;padding-top:0;padding-bottom:0;padding-left:32px;padding-right:32px;">
 
               <!--[if mso]>
               <table width="600" cellspacing="0" cellpadding="0" border="0">
@@ -237,9 +273,9 @@
               <![endif]-->
 
               <!--Текст-->
-              <table width="361" cellpadding="0" cellspacing="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;width:361px;">
+              <table class="welcome__text" width="361" cellpadding="0" cellspacing="0" border="0" style="width:361px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
                 <tr>
-                  <td style="Margin:0;padding-top:32px;padding-bottom:24px;padding-left:0;padding-right:0;">
+                  <td class="welcome__text-wrapper" style="Margin:0;padding-top:32px;padding-bottom:24px;padding-left:0;padding-right:0;">
 
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#0b379b" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0b379b;width:100%;">
                       <tr>
@@ -275,9 +311,9 @@
               <![endif]-->
 
               <!--Картинка-->
-              <table width="175" cellpadding="0" cellspacing="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;width:175px;">
+              <table class="welcome__image" width="175" cellpadding="0" cellspacing="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;width:175px;">
                 <tr>
-                  <td style="Margin:0;padding:0;">
+                  <td style="Margin:0;padding:0;" align="center">
                     <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/image_1.png" width="175" height="269" alt="Человек с уверенным видом стоит, поставив ногу на выступ. В руках у него ноутбук." style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
                   </td>
                 </tr>
@@ -293,9 +329,9 @@
 
         <!--Анонс-->
         <!--Обертка-->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
+        <table class="mobile-width announcement" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;">
           <tr>
-            <td style="Margin:0;padding-top:48px;padding-bottom:48px;padding-left:32px;padding-right:32px;">
+            <td class="announcement__wrapper" style="Margin:0;padding-top:48px;padding-bottom:48px;padding-left:32px;padding-right:32px;">
 
               <!--Контент анонса-->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
@@ -309,7 +345,7 @@
                 <tr>
                   <td align="left" style="Margin:0;padding-top:0;padding-bottom:21px;padding-left:0;padding-right:0;">
                     <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#141414;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
-                      Вы будете изучать теорию и методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А применить полученные знания на&nbsp;практике вы сможете, выполняя задания по&nbsp;личному проекту.
+                      Вы будете изучать теорию и&nbsp;методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А применить полученные знания на&nbsp;практике вы сможете, выполняя задания по&nbsp;личному проекту.
                     </p>
                   </td>
                 </tr>
@@ -323,7 +359,7 @@
                 <tr>
                   <td align="left" style="Margin:0;padding-top:0;padding-bottom:21px;padding-left:0;padding-right:0;">
                     <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#141414;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
-                      После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите — убедиться, что он реализован в&nbsp;соответствии с&nbsp;техническим заданием.
+                      После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите — убедиться, что&nbsp;он реализован в&nbsp;соответствии с&nbsp;техническим заданием.
                     </p>
                   </td>
                 </tr>
@@ -464,7 +500,7 @@
         <!--Ведущие курса закончились-->
 
         <!--Информация, скрытая на мобильном-->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
+        <table class="hidden" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
           <tr>
             <td style="Margin:0;padding-left:32px;padding-right:32px;padding-top:0;padding-bottom:48px;">
               <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#141414;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
@@ -476,14 +512,14 @@
 
         <!--Другие мероприятия-->
         <!--Обертка-->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
+        <table class="mobile-width events" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:600px;">
           <tr>
-            <td style="Margin:0;padding-left:16px;padding-right:16px;padding-top:0;padding-bottom:16px;">
+            <td class="events__wrapper" style="Margin:0;padding-left:16px;padding-right:16px;padding-top:0;padding-bottom:16px;">
 
               <!--Заголовок-->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+              <table class="events__title" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
                 <tr>
-                  <td align="center" style="Margin:0;padding-left:0;padding-right:0;padding-top:0;padding-bottom:24px;">
+                  <td class="events__title-wrapper" align="center" style="Margin:0;padding-left:0;padding-right:0;padding-top:0;padding-bottom:24px;">
                     <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:30px;line-height:35px;color:#0b379b;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
                       <b>Другие мероприятия</b>
                     </p>
@@ -508,7 +544,7 @@
                             <tr>
                               <td align="left" style="Margin:0;padding-left:0;padding-right:0;padding-top:0;padding-bottom:8px;">
                                 <p style="Margin:0;padding:0;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:24px;line-height:28px;color:#02bad3;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;">
-                                  <b>Тренды frontend-разработки</b>
+                                  <b>Тренды frontend&#8209;разработки</b>
                                 </p>
                               </td>
                             </tr>
@@ -640,9 +676,9 @@
               <!--Все мероприятия-->
               <table width="176" cellpadding="0" cellspacing="0" border="0" align="center" style="width:176px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                 <tr>
-                  <td>
+                  <td style="Margin:0;padding:0;" align="center">
                     <a href="https://htmlacademy.ru/events" target="_blank" style="display:inline-block;border-right:16px solid #ff4b33;border-left:16px solid #ff4b33;border-bottom:8px solid #ff4b33;border-top:8px solid #ff4b33;border-bottom-right-radius:5px;border-top-right-radius:5px;border-top-left-radius:5px;border-bottom-left-radius:5px;font-family:'Trebuchet MS','Nimbus Sans L','Helvetica',sans-serif;font-size:18px;line-height:21px;color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-line-height-rule:exactly;text-decoration:none;background-color:#ff4b33">
-                      Все мероприятия
+                      Все&nbsp;мероприятия
                     </a>
                   </td>
                 </tr>
@@ -656,10 +692,10 @@
         <!--Другие мероприятия закончились-->
 
         <!--Картинка Превед-->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+        <table class="mobile-width hello-image" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="width:600px;background-color:#ffffff;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
           <tr>
-            <td align="center" style="Margin:0;padding-bottom:8px;padding-top:0;padding-left:0;padding-right:0;">
-              <img src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/image_2.jpg" width="273" height="290" alt="Двое людей приветствуют друг друга с помощью видеосвязи." style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
+            <td class="hello-image__wrapper" align="center" style="Margin:0;padding-bottom:8px;padding-top:0;padding-left:0;padding-right:0;">
+              <img class="image" src="https://raw.githubusercontent.com/DanilovaOlga/1126609-play-html-1/module2-task2/2-welcome/img/image_2.jpg" width="273" height="290" alt="Двое людей приветствуют друг друга с помощью видеосвязи." style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
             </td>
           </tr>
         </table>
